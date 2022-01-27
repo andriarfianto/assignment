@@ -1,0 +1,312 @@
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+  --bg-opacity: 1;
+  --text-opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--clr-gray);
+}
+
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: minimax(300px, 1fr);
+  grid-gap: 0rem;
+  margin: 1rem !important;
+}
+
+.container {
+  transition: box-shadow 0.25s ease 0s;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(26, 32, 44, var(--text-opacity));
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  width: 320px;
+  min-width: 220px;
+  border: 1px solid #e7e7e7;
+  height: auto;
+}
+
+.container:hover {
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+}
+
+/* cover */
+.cover {
+  overflow: hidden;
+  position: relative;
+}
+
+.cover .label {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  justify-content: flex-end;
+}
+
+.creator-tag {
+  position: absolute;
+  display: inline-block;
+  right: 0.4em;
+}
+
+.cover .label .creator-tag {
+  padding: 0.5rem;
+}
+
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn > li {
+  line-height: 10px;
+}
+
+.cover .banner-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  min-height: 100px;
+  height: 100px;
+  max-height: 225px;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  display: flex;
+}
+
+/* avatar */
+.avatar {
+  overflow: hidden;
+  position: relative;
+  margin-top: -3rem;
+  padding: 0 1rem;
+}
+
+.avatar .profile-img {
+  width: 90px;
+  width: 90px;
+  clip-path: circle(60px at center);
+  border-radius: 50%;
+}
+
+.avatar .btn-follow {
+  background-color: #3cd278;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  width: 88px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.btn-follow:hover {
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+  transition: box-shadow 0.25s ease-in-out 0s;
+}
+
+/* profile */
+.profile {
+  padding: 1rem;
+}
+.profile .name {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 600;
+}
+
+.name .username {
+  font-size: 12px;
+  color: #949494;
+  font-weight: 400;
+}
+
+.profile .description {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.followers {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.followers .count {
+  font-weight: 600;
+}
+
+.followers .job {
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+.social-media-account {
+  font-size: 1.25rem;
+  color: #949494;
+}
+
+.btn-facebook {
+  background-color: #e7e7e7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #949494;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.btn-facebook .logo-facebook {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-twitter {
+  background-color: #e7e7e7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #949494;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.btn-twitter .logo-twitter {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-instagram {
+  background-color: #e7e7e7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #949494;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.btn-instagram .logo-instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-youtube {
+  background-color: #e7e7e7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #949494;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.btn-youtube .logo-youtube {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-outline {
+  background-color: #e7e7e7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #949494;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.btn-outline .logo-outline {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0.5rem 0 !important;
+  }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0.5rem 0rem;
+  }
+  
+  .container {
+    margin: 0.25rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0.5rem 0rem;
+  }
+  
+  .container {
+    margin: .5rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0.5rem 0rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0.5rem 0rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0.5rem 0rem;
+  }
+}
