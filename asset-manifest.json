@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/assignment/static/css/main.26496cc1.css",
+    "main.js": "/assignment/static/js/main.95c1b247.js",
+    "static/js/787.81a96ae4.chunk.js": "/assignment/static/js/787.81a96ae4.chunk.js",
+    "static/media/cover-apradipta.jpg": "/assignment/static/media/cover-apradipta.0fbc37cfd4820101362c.jpg",
+    "static/media/cover-charlie.jpg": "/assignment/static/media/cover-charlie.69341ab8d5b6f3b79e72.jpg",
+    "static/media/cover-ferajelita.jpg": "/assignment/static/media/cover-ferajelita.4353c67809a95f9584d8.jpg",
+    "static/media/cover-punipun.jpg": "/assignment/static/media/cover-punipun.d7f96877a836c49d3ceb.jpg",
+    "static/media/punipun.png": "/assignment/static/media/punipun.939d581bbd323bd861c6.png",
+    "static/media/apradipta.jpg": "/assignment/static/media/apradipta.ef0d5f44424c6aad310b.jpg",
+    "static/media/charlie.jpg": "/assignment/static/media/charlie.5abdfd661d564848314b.jpg",
+    "static/media/ferajelita.png": "/assignment/static/media/ferajelita.60fce2b554c8800a2f23.png",
+    "index.html": "/assignment/index.html",
+    "main.26496cc1.css.map": "/assignment/static/css/main.26496cc1.css.map",
+    "main.95c1b247.js.map": "/assignment/static/js/main.95c1b247.js.map",
+    "787.81a96ae4.chunk.js.map": "/assignment/static/js/787.81a96ae4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26496cc1.css",
+    "static/js/main.95c1b247.js"
+  ]
+}
